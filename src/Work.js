@@ -18,25 +18,25 @@ export default class Work extends Component {
                           <p>言語：HTML, css, php, js フレームワークなし</p>
                         </div>
                         </a>
-                        <div>
+                        <a>
                           <div id="workImg2"></div>
                           <div class="box-title">
                           <p>成約管理システム制作 ※こちらはリンクではございません。</p>
                           <p>言語：vue.js, laravel, adminlte</p>
                         </div>
-                    </div>
+                        </a>
                       </div>
                     </div>
                     <div class="work">
                       <p>〜ポートフォリオ〜</p>
                       <div class="wrap">
-                        <div>
+                        <a>
                           <div id="workImg3"></div>
                           <div class="box-title">
                           <p></p>
                           <p>言語：react, HTML, css</p>
                         </div>
-                        </div>
+                    </a>
                       </div>
                     </div>
                   </div>

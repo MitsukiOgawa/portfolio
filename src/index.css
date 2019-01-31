@@ -268,6 +268,11 @@ ul{
     position: relative;
     margin-bottom: 1rem;
 }
+.wrap img {
+    display: block;
+    position: relative;
+    margin-bottom: 1rem;
+}
 
 #workImg1{
     background-image: url('photo/care-offers.png');
@@ -395,6 +400,12 @@ ul{
         display: block;
         position: relative;
         margin-bottom: 1rem;
+        width: 100%;
+    }
+    .wrap .img {
+        display: block;
+        position: relative;
+        margin-bottom: 1rem;
     }
     .box-title {
         width: 100%;
@@ -409,18 +420,18 @@ ul{
         font-weight: bold;
     }
     #workImg1{
-        background-size: 40vw 40vw;
-        height: 80vw;
-        width: 40vw;
+        background-size: 100% 100%;
+        height: 50vw;
+        width: 100%;
     }
     #workImg2{
-        background-size: 40vw 40vw;
-        height: 80vw;
-        width: 40vw;
+        background-size: 100% 100%;
+        height: 50vw;
+        width: 100%;
     }
     #workImg3{
-        background-size: 40vw 40vw;
-        height: 80vw;
-        width: 40vw;
+        background-size: 100% 100%;
+        height: 50vw;
+        width: 100%;
     }
 }
