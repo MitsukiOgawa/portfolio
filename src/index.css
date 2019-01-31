@@ -14,6 +14,10 @@ code {
     monospace;
 }
 
+.pc-none{
+    display: none;
+}
+
 nav{
     background: linear-gradient( #0099e4,#BBFFFF);
     border-radius: 20px;

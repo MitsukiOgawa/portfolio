@@ -14,14 +14,14 @@ export default class Work extends Component {
                         <a href="https://CareOffers.com/">
                           <div id="workImg1"></div>
                           <div class="box-title">
-                          <p>介護施設探しマッチングサービスCareOffersの<br />フロント、サーバー側の制作</p>
-                          <p>言語：HTML, css, php, js フレームワークなし</p>
+                          <p>施設探しマッチングサービスCareOffersの<br />フロント、サーバー側の制作</p>
+                          <p>言語：HTML, css, php, js  frameworkなし</p>
                         </div>
                         </a>
                         <a>
                           <div id="workImg2"></div>
                           <div class="box-title">
-                          <p>成約管理システム制作 ※こちらはリンクではございません。</p>
+                          <p>成約管理システム制作 <br class="pc-none" />※こちらはリンクではございません。</p>
                           <p>言語：vue.js, laravel, adminlte</p>
                         </div>
                         </a>
