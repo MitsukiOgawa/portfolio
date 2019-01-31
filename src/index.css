@@ -1,9 +1,10 @@
+
 body {
+    /* height: 100%; */
+    background-color: #f2efea;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,4 +12,415 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+nav{
+    background: linear-gradient( #0099e4,#BBFFFF);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+a{
+    padding-right: 10px;
+    color:white;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 3.1rem;
+    font-weight: normal;
+}
+
+#photo1{
+    background-image: url('photo/39085119_1021104211.png');
+    background-size:250px 250px;
+    height: 250px;
+    width: 250px;
+	position: absolute;
+	top:1%;
+	left:15%;
+}
+#photo2{
+    background-image: url('photo/IMG_0478_1021112856.png');
+    background-size:500px 500px;
+    height: 500px;
+    width: 500px;
+	position: absolute;
+	top:70%;
+	left:5%;
+}
+#photo3{
+    background-image: url('photo/carshare501IMGL2465_TP_V_1021103642.png');
+    background-size:450px 450px;
+    height: 450px;
+    width: 450px;
+	position: absolute;
+	top:15%;
+	left:70%;
+}
+#circle{
+	position: relative;
+	z-index: 10;
+	text-align: center;
+	display: block;
+	width: 466px;
+	height: 466px;
+	border-radius: 50em;
+	background: linear-gradient( #0099e4,#BBFFFF);
+	margin: 0 auto;
+	opacity:0.9;
+}
+#homeText{
+	text-align: center;
+	margin: 40 auto 20px;
+	font-size: 28px;
+	color: white;
+}
+#homeLogo{
+	padding: 130px 0px 15px 0px;
+	text-align: center;
+	letter-spacing: 10px;
+	font-weight: bold;
+	color: white;
+}
+#photo5{
+    background-image: url('photo/BIS151026313517_TP_V_1021110200.png');
+    background-size:280px 280px;
+    height: 280px;
+    width: 280px;
+	position: absolute;
+	top:-10%;
+	left:60%;
+}
+#photo6{
+    background-image: url('photo/PAK86_bardeno14181907_TP_V_1021103713.png');
+    background-size: 400px 400px;
+    height: 400px;
+    width: 400px;
+	position: absolute;
+	top:85%;
+	left:50%;
+}
+#photo7{
+    background-image: url('photo/繧ｷ繧吶Ι繧ｭ繧吶Φ繧ｯ繧吶☆繧九き繝・ヵ繧壹Ν・婆1280_1021110108.png');
+    background-size: 180px 180px;
+    height: 180px;
+    width: 180px;
+	position: absolute;
+	top:40%;
+	left:7%;
+}
+#photo8{
+    background-image: url('photo/IMG_0251_1021112943.png');
+    background-size: 250px 250px;
+    height: 250px;
+    width: 250px;
+	position: absolute;
+	top:110%;
+	left:85%;
+}
+
+.rate {
+    position: relative;
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    font-size: 20px;
+}
+.rate::after {
+    color: #808080;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.rate1::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "★";
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.rate2::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "★★";
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.rate3::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "★★★";
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.rate4::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "★★★★";
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.rate5::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "★★★★★";
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+ul{
+    padding-left: 0;
+}
+
+.profile-table {
+    float:left;
+    width: 34.5rem;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    font-size: 16px;
+}
+.profile-table th {
+    background: #295890;
+    vertical-align: middle;
+    text-align: left;
+    width: 100px;
+    overflow: visible;
+    position: relative;
+    color: #fff;
+    font-weight: normal;
+    font-size: 15px;
+}
+.profile-table th::after {
+    float: right;
+    padding: 0;
+    left: 20px;
+    top: 12px;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: relative;
+    pointer-events: none;
+    border: 10px solid transparent;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 10px;
+    border-left: #295890 10px solid;
+    margin-top: -10px;
+}
+.profile-table td {
+    background: #f8f8f8;
+    width: 360px;
+    padding: 10px 0 10px 40px;
+}
+
+.tag {
+    display: block;
+    font-weight: 600;
+    color: #001de4;
+    font-size: 14px;
+}
+
+.box {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #F4F5F7;
+    border: solid 3px #7db4e6;
+    border-radius: 10px;
+}
+
+.work p {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box-title {
+    width: 100%;
+    color: #FFF;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.box-title p {
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.wrap a {
+    display: block;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+#workImg1{
+    background-image: url('photo/care-offers.png');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+#workImg2{
+    background-image: url('photo/manager.png');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+#workImg3{
+    background-image: url('photo/portfolio.png');
+    background-size: cover;
+    height: 250px;
+    width: 400px;
+}
+
+@media screen and (max-width : 767px ) {
+    html{
+        height: 100%;
+        width: 100%;
+    }
+    h1{
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
+    .sm-none{
+        display: none;
+    }
+    #photo1,#photo2,#photo3,#photo5,#photo6,#photo7,#photo8{
+        background-size: 150px 150px;
+        height: 150px;
+        width: 150px;
+    }
+    #photo1{
+    	position: absolute;
+    	top:-10%;
+    	left:3%;
+    }
+    #photo2{
+    	position: absolute;
+    	top:90%;
+    	left:2%;
+    }
+    #photo3{
+    	position: absolute;
+    	top:-7%;
+    	left:58%;
+    }
+    #photo5{
+    	position: absolute;
+    	top:12%;
+    	left:46%;
+    }
+    #photo6{
+    	position: absolute;
+    	top:90%;
+    	left:46%;
+    }
+    #photo7{
+    	position: absolute;
+    	top:46%;
+    	left:17%;
+    }
+    #photo8{
+    	position: absolute;
+    	top:53%;
+    	left:58%;
+    }
+    #circle{
+        position: relative;
+    	z-index: 10;
+    	text-align: center;
+    	display: block;
+    	width: 100%;
+    	height: 100%;
+        padding: 50px 0;
+    	border-radius: 10%;
+    	background: linear-gradient( #0099e4,#BBFFFF);
+    	margin: 20px  auto;
+    	opacity:0.9;
+    }
+    #homeText{
+    	text-align: center;
+    	margin: 40 auto 20px;
+    	font-size: 20px;
+    	color: white;
+    }
+    #homeLogo{
+    	padding: 40px 0px 15px 0px;
+    	text-align: center;
+    	letter-spacing: 10px;
+    	font-weight: bold;
+    	color: white;
+    }
+
+    .profile-table {
+        width: 95vw;
+        border-collapse: separate;
+        border-spacing: 0 15px;
+        font-size: 12px;
+    }
+    .box {
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        background: #F4F5F7;
+        border: solid 3px #7db4e6;
+        border-radius: 10px;
+        width: 85vw;
+    }
+    .work p {
+        font-size: 14pt;
+        font-weight: bold;
+        text-align: center;
+    }
+    .wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .wrap a {
+        display: block;
+        position: relative;
+        margin-bottom: 1rem;
+    }
+    .box-title {
+        width: 100%;
+        color: #FFF;
+        background: rgba(0,0,0,0.7);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .box-title p {
+        font-size: 8pt;
+        font-weight: bold;
+    }
+    #workImg1{
+        background-size: 40vw 40vw;
+        height: 80vw;
+        width: 40vw;
+    }
+    #workImg2{
+        background-size: 40vw 40vw;
+        height: 80vw;
+        width: 40vw;
+    }
+    #workImg3{
+        background-size: 40vw 40vw;
+        height: 80vw;
+        width: 40vw;
+    }
 }
