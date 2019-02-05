@@ -60,7 +60,7 @@ export default class Profile extends Component {
                           </tr>
                         <tr>
                           <th>環境</th>
-                          <td>Window10 pro, Ubuntu 14.04, CentOS7</td>
+                          <td>Window10 pro, Ubuntu 14.04</td>
                         </tr>
                         <tr>
                           <th>趣味</th>
